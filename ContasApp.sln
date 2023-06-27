@@ -1,24 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.4.33110.190
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContasApp.Presentation", "ContasApp.Presentation\ContasApp.Presentation.csproj", "{5D1CF917-D98E-4742-AC1E-0D0F81742303}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContasApp.Data", "ContasApp.Data\ContasApp.Data.csproj", "{D3C004D2-2B40-40EA-A5F4-9B3D0AA673DE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de acesso a dados", "2 - Camada de acesso a dados", "{C16C95C3-CB13-4F27-B1A7-C2A8FAD578C8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada de apresentação", "1 - Camada de apresentação", "{43D62F76-8139-4063-A471-8B2DFB5E5368}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D143911-9121-43C2-A265-D77884A275A2}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de envio de mensagens", "3 - Camada de envio de mensagens", "{08CBBF9B-5828-4AD5-9012-305C862527AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContasApp.Messages", "ContasApp.Messages\ContasApp.Messages.csproj", "{5CA77145-F0BA-458D-9129-AEEE93DDDDA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaConta.Presentetion", "SistemaConta.Presentetion\SistemaConta.Presentetion.csproj", "{72F6026D-988B-4965-B597-262C4BF56F03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,28 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5D1CF917-D98E-4742-AC1E-0D0F81742303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D1CF917-D98E-4742-AC1E-0D0F81742303}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D1CF917-D98E-4742-AC1E-0D0F81742303}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D1CF917-D98E-4742-AC1E-0D0F81742303}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3C004D2-2B40-40EA-A5F4-9B3D0AA673DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3C004D2-2B40-40EA-A5F4-9B3D0AA673DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3C004D2-2B40-40EA-A5F4-9B3D0AA673DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3C004D2-2B40-40EA-A5F4-9B3D0AA673DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5CA77145-F0BA-458D-9129-AEEE93DDDDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CA77145-F0BA-458D-9129-AEEE93DDDDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CA77145-F0BA-458D-9129-AEEE93DDDDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CA77145-F0BA-458D-9129-AEEE93DDDDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F6026D-988B-4965-B597-262C4BF56F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F6026D-988B-4965-B597-262C4BF56F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F6026D-988B-4965-B597-262C4BF56F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F6026D-988B-4965-B597-262C4BF56F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{5D1CF917-D98E-4742-AC1E-0D0F81742303} = {43D62F76-8139-4063-A471-8B2DFB5E5368}
-		{D3C004D2-2B40-40EA-A5F4-9B3D0AA673DE} = {C16C95C3-CB13-4F27-B1A7-C2A8FAD578C8}
-		{5CA77145-F0BA-458D-9129-AEEE93DDDDA6} = {08CBBF9B-5828-4AD5-9012-305C862527AA}
-	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4DEAB7CC-2A53-4F84-8B25-7101D948352C}
+		SolutionGuid = {46AB93D6-A16A-4844-8B5F-9B4C6DCCC454}
 	EndGlobalSection
 EndGlobal

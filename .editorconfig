@@ -1,4 +1,0 @@
-﻿[*.cs]
-
-# IDE0008: Usar o tipo explícito
-dotnet_diagnostic.IDE0008.severity = none
