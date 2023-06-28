@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ContasApp.Data.Entities;
+using ContasApp.Data.Repositories;
+using Microsoft.AspNetCore.Mvc;
 using SistemaConta.Presentetion.Models;
 
 namespace SistemaConta.Presentetion.Controllers
@@ -28,6 +30,30 @@ namespace SistemaConta.Presentetion.Controllers
         [HttpPost]
         public IActionResult Register(AccountRegisterViewModel model)
         {
+            //verificando se todos os campos enviados pela model
+           //passaram nas regras de validação
+            if (ModelState.IsValid)
+            {
+                //criando um objeto usuário
+                var usuario = new Usuario()
+                {
+                    Id = Guid.NewGuid(),
+                    Nome = model.Nome,
+                    Email = model.Email,
+                    Senha = model.Senha
+                };
+               
+                //gravando o usuário no banco de dados
+                var usuarioRepository = new UsuarioRepository();
+                usuarioRepository.Add(usuario);
+                
+                //gerando uma mensagem
+                TempData["Mensagem"] = "Parabéns, sua conta de usuário foi criada com sucesso.";
+            
+                //limpar os campos do formulário
+                ModelState.Clear();
+            }
+
             return View();
         }
 

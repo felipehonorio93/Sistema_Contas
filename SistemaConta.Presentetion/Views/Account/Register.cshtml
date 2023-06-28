@@ -9,6 +9,9 @@
     @** Criando um formulário *@
     @using (Html.BeginForm())
     {
+        <div class="text-center">
+            <h5>@TempData["Mensagem"]</h5>
+        </div>
         <div>
             <div class="mb-2">
                 <label>Nome do usuário:</label>

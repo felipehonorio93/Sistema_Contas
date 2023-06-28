@@ -1,0 +1,12 @@
+E:\Sistemas_C#\ContasApp\ContasApp.Data\bin\Debug\net6.0\ContasApp.Data.deps.json
+E:\Sistemas_C#\ContasApp\ContasApp.Data\bin\Debug\net6.0\ContasApp.Data.dll
+E:\Sistemas_C#\ContasApp\ContasApp.Data\bin\Debug\net6.0\ContasApp.Data.pdb
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\ContasApp.Data.csproj.AssemblyReference.cache
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\ContasApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\ContasApp.Data.AssemblyInfoInputs.cache
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\ContasApp.Data.AssemblyInfo.cs
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\ContasApp.Data.csproj.CoreCompileInputs.cache
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\ContasApp.Data.dll
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\refint\ContasApp.Data.dll
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\ContasApp.Data.pdb
+E:\Sistemas_C#\ContasApp\ContasApp.Data\obj\Debug\net6.0\ref\ContasApp.Data.dll
